@@ -15,7 +15,7 @@ numbers_pass = random.sample(numbers, nr_numbers)
 password = letters_pass + symbols_pass + numbers_pass
 print(password)
 random.shuffle(password)
-pas = ""
+password_string = ""
 for n in range(0, len(password)):
-    pas += password[n]
-print(pas)
+    password_string += password[n]
+print(password_string)
