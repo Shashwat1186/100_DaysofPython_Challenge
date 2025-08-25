@@ -10,8 +10,6 @@ def select_data():
    account = random.choice(data)
    return account
 
-
-
 #compare function to compare the followers of the contestants and update score for correct answer
 def compare_acc(acc1, acc2, user_response, sc):
    is_game_running = True
